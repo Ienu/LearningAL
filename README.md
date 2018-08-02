@@ -70,3 +70,16 @@ CS 1AH POP CS:[BX]
 问题7.9 见CODE_02.ASM
 ## 实验 7
 见CODE_03.ASM
+## 检测点 9.1
+(1) DB 0, 0, 0
+
+(2) BX CS
+
+(3) 0006H 00BEH
+## 检测点 9.2
+```
+MOV CL, DS:[BX]
+MOV CH, 0
+JCXZ ok
+INC BX
+```

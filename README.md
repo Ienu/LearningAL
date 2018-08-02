@@ -68,3 +68,5 @@ MOV CS:[BX], AX
 CS 1AH POP CS:[BX]
 ## 实验 6
 问题7.9 见CODE_02.ASM
+## 实验 7
+见CODE_03.ASM

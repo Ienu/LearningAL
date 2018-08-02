@@ -57,3 +57,6 @@ MOV AX, 1000H
 MOV SS, AX
 MOV SP, 0000H
 ```
+## 实验 4
+见 CODE_01.ASM
+## 检测点

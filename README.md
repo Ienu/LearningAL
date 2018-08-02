@@ -83,3 +83,7 @@ MOV CH, 0
 JCXZ ok
 INC BX
 ```
+## 检测点 9.3
+INC CX
+## 实验9
+见CODE_04.ASM

@@ -59,4 +59,13 @@ MOV SP, 0000H
 ```
 ## 实验 4
 见 CODE_01.ASM
-## 检测点
+## 检测点 6.1
+(1) 
+```
+MOV CS:[BX], AX
+```
+(2)
+CS 1AH POP CS:[BX]
+## 实验 5
+(5) 见CODE_02.ASM
+(6) 见CODE_03.ASM
